@@ -1,0 +1,13 @@
+{
+  "name": "brain-protocol-marketplace",
+  "description": "Brain Protocol — a self-maintaining project-knowledge plugin for Claude Code: commit the WHY (product + decisions), regenerate the HOW (architecture) as a local cache.",
+  "owner": { "name": "REPLACE_WITH_YOUR_NAME" },
+  "plugins": [
+    {
+      "name": "brain-protocol",
+      "source": "./",
+      "description": "Self-maintaining project knowledge: commit the WHY, regenerate the HOW as a local cache. Drift-check, harvester, decision log. Branch/squash-safe.",
+      "version": "0.1.0"
+    }
+  ]
+}

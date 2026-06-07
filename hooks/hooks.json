@@ -1,0 +1,20 @@
+{
+  "description": "Brain Protocol lifecycle: SessionStart drift-check (is the local HOW cache current with code?) + Stop background insight harvester (capture conversational WHY).",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/brain-session-start.mjs\"", "timeout": 15 }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/brain-stop-updater.mjs\"", "timeout": 15 }
+        ]
+      }
+    ]
+  }
+}

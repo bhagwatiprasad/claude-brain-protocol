@@ -1,0 +1,11 @@
+{
+  "name": "brain-protocol",
+  "description": "Self-maintaining project knowledge. Commit the durable WHY (product + decisions); regenerate the volatile HOW (architecture) as a local, gitignored cache. Auto drift-check on session start, a background insight harvester, and an append-only decision log. Branch- and squash-safe by design.",
+  "version": "0.1.0",
+  "author": { "name": "REPLACE_WITH_YOUR_NAME" },
+  "homepage": "https://github.com/REPLACE_WITH_YOUR_GITHUB/claude-brain-protocol",
+  "license": "MIT",
+  "keywords": ["knowledge", "memory", "architecture", "decisions", "adr", "automation", "hooks"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

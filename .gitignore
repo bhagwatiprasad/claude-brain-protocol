@@ -1,0 +1,6 @@
+# The plugin is pure source — no build, no deps.
+node_modules/
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
